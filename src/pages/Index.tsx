@@ -107,6 +107,36 @@ const Index = () => {
         </ul>
       </section>
 
+      {/* Notícias */}
+      <section className="max-w-2xl mx-auto px-6 py-24">
+        <h2 className="font-display text-xs tracking-wide-editorial uppercase text-muted-foreground mb-16">
+          Na Mídia
+        </h2>
+
+        <div className="space-y-10">
+          <a href="#" className="group block border-t border-border pt-6">
+            <p className="font-body text-xs text-muted-foreground/60 mb-2">Gazeta do Povo — Jan 2026</p>
+            <p className="font-display text-lg sm:text-xl font-light text-foreground group-hover:text-foreground/70 transition-colors duration-300">
+              Adilson Kremer Junior e o novo ciclo da incorporação no Paraná
+            </p>
+          </a>
+
+          <a href="#" className="group block border-t border-border pt-6">
+            <p className="font-body text-xs text-muted-foreground/60 mb-2">Valor Econômico — Nov 2025</p>
+            <p className="font-display text-lg sm:text-xl font-light text-foreground group-hover:text-foreground/70 transition-colors duration-300">
+              Como a governança diferencia incorporadoras de alto padrão
+            </p>
+          </a>
+
+          <a href="#" className="group block border-t border-border pt-6">
+            <p className="font-body text-xs text-muted-foreground/60 mb-2">Folha de Londrina — Set 2025</p>
+            <p className="font-display text-lg sm:text-xl font-light text-foreground group-hover:text-foreground/70 transition-colors duration-300">
+              A10 Incorporadora anuncia novo empreendimento residencial
+            </p>
+          </a>
+        </div>
+      </section>
+
       {/* Transição Corporativa — A10 */}
       <section className="border-t border-border">
         <div className="max-w-2xl mx-auto px-6 py-24">
