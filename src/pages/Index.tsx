@@ -6,7 +6,7 @@ const Index = () => {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center min-h-screen px-6">
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl font-light tracking-tight text-foreground">
-          Rafael Monteiro
+          Adilson Kremer Junior
         </h1>
         <p className="mt-4 font-body text-sm tracking-editorial uppercase text-muted-foreground">
           Incorporador Imobiliário
@@ -129,7 +129,7 @@ const Index = () => {
       {/* Rodapé */}
       <footer className="max-w-2xl mx-auto px-6 py-16">
         <p className="font-body text-xs text-muted-foreground/50 tracking-editorial uppercase">
-          © {new Date().getFullYear()} Rafael Monteiro
+          © {new Date().getFullYear()} Adilson Kremer Junior
         </p>
       </footer>
     </div>
